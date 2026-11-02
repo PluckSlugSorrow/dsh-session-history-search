@@ -46,14 +46,14 @@
     }
   },
   "license": "MIT",
-  "author": "session-history-search contributors",
-  "homepage": "https://github.com/OWNER/dsh-session-history-search#readme",
+  "author": "PluckSlugSorrow",
+  "homepage": "https://github.com/PluckSlugSorrow/dsh-session-history-search#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OWNER/dsh-session-history-search.git"
+    "url": "git+https://github.com/PluckSlugSorrow/dsh-session-history-search.git"
   },
   "bugs": {
-    "url": "https://github.com/OWNER/dsh-session-history-search/issues"
+    "url": "https://github.com/PluckSlugSorrow/dsh-session-history-search/issues"
   },
   "engines": {
     "node": ">=20"
