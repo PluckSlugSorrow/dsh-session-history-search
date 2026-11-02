@@ -1,0 +1,3 @@
+- insert:
+    - id: session-history-search
+      name: 'dsh-session-history-search'

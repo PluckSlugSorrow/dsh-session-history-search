@@ -1,0 +1,61 @@
+{
+  "name": "dsh-session-history-search",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Sidebar search across every past Session: literal substring matching that also works for Chinese, results grouped per Session with highlighted snippets, and one click to reopen that conversation.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "harness",
+    "session",
+    "search",
+    "sidebar",
+    "history"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "dsh": {
+    "engines": {
+      "dsh": ">=0.2.1-rc.5"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar",
+        "@deepseek-ai/dsh-client-ui-workspace"
+      ]
+    }
+  },
+  "license": "MIT",
+  "author": "session-history-search contributors",
+  "homepage": "https://github.com/OWNER/dsh-session-history-search#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OWNER/dsh-session-history-search.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OWNER/dsh-session-history-search/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

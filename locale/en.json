@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Session History Search",
+    "description": "Search the message text of every past Session from the sidebar, find where a question or request was made, and jump back to it."
+  }
+}

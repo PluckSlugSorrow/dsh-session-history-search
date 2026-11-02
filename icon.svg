@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="Session History Search">
+  <defs>
+    <linearGradient id="shs-bg" x1="16" y1="12" x2="112" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5B7CFA"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="url(#shs-bg)"/>
+  <g fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M34 32h60a10 10 0 0 1 10 10v44a10 10 0 0 1-10 10H34a10 10 0 0 1-10-10V42a10 10 0 0 1 10-10Z" opacity="0.28" stroke-width="4"/>
+    <path d="M40 48h34" stroke-width="6"/>
+    <path d="M40 62h24" stroke-width="6"/>
+    <circle cx="76" cy="76" r="19" stroke-width="7"/>
+    <path d="M90 90l14 14" stroke-width="8"/>
+  </g>
+</svg>
